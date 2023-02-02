@@ -1,0 +1,143 @@
+:root{
+  --sidebar-width: 250px
+}
+
+/* -- GLOBAL COMPONENT -- */
+
+body{
+  background-color: #f0f2f5 !important;
+  min-height: 100vh;
+}
+
+.view{
+  display: flex;
+}
+
+.view aside{
+  width: var(--sidebar-width);
+}
+
+main.main-interface{
+  width: calc(100vw - var(--sidebar-width))
+}
+
+.subtitle{
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  color: #72828D;
+}
+
+/* -- SIDEBAR --*/
+
+.view aside{
+  /*background-color: tomato;*/
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.view aside article{
+  height: 100% !important;
+  width: inherit !important;
+  background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+  margin: 0;
+  padding: 20px;
+  position: fixed;
+}
+
+a.active{
+  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+}
+
+.main-view{
+  padding:10px 20px;
+}
+
+.sidebar-link{
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-link .sidebar-icon{
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px 0px 5px;
+}
+
+/* -- DASHBOARD VIEW --*/
+
+article.card{
+  padding: 20px !important;
+  margin: 20px 0 40px 0 !important;
+}
+
+.card-icon{
+  width: 64px;
+  height: 64px;
+  border-radius: 0.75rem;
+  position: absolute;
+  margin-top: -2rem;
+}
+
+.card-icon.one{
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(64 64 64 / 40%);
+  background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+}
+
+.card-icon.two{
+  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(233 30 99 / 40%);
+}
+
+.card-icon.three{
+  background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(76 175 80 / 40%);
+}
+
+.card-icon.four{
+  background-image: linear-gradient(195deg, #49a3f1 0%, #1A73E8 100%);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 188 212 / 40%);
+}
+
+.card-title p{
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  color: #72828D;
+  text-align-last: right;
+}
+
+.card-title h4{
+  margin: 0;
+  text-align-last: right;
+}
+
+.chart-container{
+  height: 100px;
+  width: 100%;
+  margin-bottom: 25%;
+}
+
+.chart-container .chart{
+  width: 100%;
+  height: 150%;
+  margin-top: -15%;
+  border-radius: 0.5rem;
+}
+
+.chart-container .chart-one{
+  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(233 30 99 / 40%);
+}
+
+.chart-container .chart-two{
+  background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(76 175 80 / 40%);
+}
+
+.chart-container .chart-three{
+  background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(64 64 64 / 40%);
+}
+
+.chart-title{
+  margin-bottom: 0;
+}

@@ -1,0 +1,40 @@
+body{
+  background-color: #f0f2f5 !important;
+  min-height: 100vh;
+}
+
+.grid{
+  min-height: 100vh;
+  padding: 20px 30px;
+}
+
+.picture-frame, .form-frame{
+  width: 100%;
+  height: 100%;
+}
+
+.picture-frame{
+  border-radius: 10px;
+  background-image: url('../images/illustration-signup.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+hgroup .subtitle{
+  margin-bottom: 20PX;
+  font-size: 0.7rem;
+  color: #72828D;
+}
+
+.form-frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  color: white !important;
+  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%) !important;
+  box-shadow: 0 3px 3px 0 rgb(233 30 99 / 15%), 0 3px 1px -2px rgb(233 30 99 / 20%), 0 1px 5px 0 rgb(233 30 99 / 15%);
+  border: 0;
+}
