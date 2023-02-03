@@ -29,7 +29,7 @@
           <td>13</td>
           <td>09951753654</td>
           <td>Biringan City</td>
-          <td>O</td>
+          <td>X</td>
         </tr>
       </tbody>
     </table>
